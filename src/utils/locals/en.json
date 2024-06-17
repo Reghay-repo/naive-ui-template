@@ -1,0 +1,571 @@
+{
+  "Sample Page": "Sample Page",
+  "Menu Level": "Menu level",
+  "Level 1": "Level 1",
+  "Level 2": "Level 2",
+  "Level 3": "Level 3",
+  "Disabled": "Disabled",
+  "Sub Caption": "Sub Caption",
+  "Outlined": "Outlined",
+  "External Link": "External Link",
+  "Chip": "Chip",
+  "dashboard": "Dashboard",
+  "models": "Models",
+  "creation": "Creation",
+  "personalization": "Personnalisation",
+  "consultation": "Consultation",
+  "chargement": "Loading Data",
+  "editor": "Editor",
+  "candidates": "Candidates",
+  "billing": "Billing",
+  "pricing": "Pricing",
+  "invoice": "Invoice",
+  "settings": "Settings",
+  "testing": "Testing",
+  "Auth": {
+    "welcome": "Welcome!",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Forgot Password?",
+    "login": "Login"
+  },
+  "Error": {
+    "oops": "Oops!!!",
+    "notFound": "The page you are looking for could not be found.",
+    "goBackHome": "Go Back to Home"
+  },
+  "Settings": {
+    "title": "Settings",
+    "account": {
+      "title": "Account",
+      "description": "Here, you can update your account information such as your profile picture, name, and username.",
+      "pictureUrl": "Picture URL",
+      "name": "First Name",
+      "lastName": "Last name",
+      "email": "Email",
+      "verified": "Verified",
+      "notVerified": "Not Verified",
+      "submitChanges": "Submit Changes"
+    },
+    "security": {
+      "title": "Security",
+      "description": "In this section, you can change your password and enable/disable two-factor authentication.",
+      "password": "Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "changePassword": "Change Password",
+      "twoFA": "Two-Factor Authentication",
+      "twoFADescriptionDisabled": "Two-Factor Authentication is currently disabled. You can enable it by adding an Authenticator app to your account.",
+      "enable2FA": "Enable 2FA",
+      "twoFADescriptionEnabled": "Two-Factor Authentication is currently enabled. You can disable it by clicking the button below.",
+      "disable2FA": "Disable 2FA"
+    },
+    "profile": {
+      "title": "Profile",
+      "description": "Here, you can update your profile to customize and personalize your experience.",
+      "theme": "Theme",
+      "language": "Language"
+    }
+  },
+  "Candidates": {
+    "title": "Candidates",
+    "searchByCandidate": "Search by candidate",
+    "noDataFound": "No data found",
+    "download": "Download",
+    "downloaded": "Download",
+    "headers": {
+      "ID": "#ID",
+      "name": "Name",
+      "email": "Email",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "oldResume": "Old resume",
+      "newResume": "New resume",
+      "actions": "Actions"
+    }
+  },
+  "Models": {
+    "consultation": {
+      "toasts": {
+        "modelUpdated": "Model updated !",
+        "modelDeleted": "Model deleted !"
+      },
+      "title": "Consultation",
+      "breadcrumbs": {
+        "models": "Models",
+        "consultation": "Consultation"
+      },
+      "searchPlaceholder": "Search by model",
+      "newModel": "New Model",
+      "importModel": "Import model",
+      "noDataFound": "No Data found",
+      "visualize": "Visualize",
+      "edit": "Edit",
+      "delete": "Delete",
+      "headers": {
+        "ID": "#ID",
+        "name": "Name",
+        "uses": "Uses",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at",
+        "actions": "Actions"
+      }
+    },
+    "creation": {
+      "logo": {
+        "logoTitle": "Logo",
+        "picture": "Picture",
+        "size": "Size",
+        "aspectRatio": "Aspect Ratio",
+        "borderRadius": "Border Radius",
+        "effects": "Effects",
+        "border": "Border",
+        "hidden": "Hidden",
+        "grayscale": "Grayscale"
+      },
+      "page": {
+        "pageTitle": "Page",
+        "format": "Format",
+        "options": "Options",
+        "showHeadline": "Show Headline",
+        "showSummary": "Show Summary"
+      },
+      "sections": {
+        "sectionsTitle": "Sections",
+        "main": "Main",
+        "sidebar": "Sidebar",
+        "certifications": "Certifications",
+        "education": "Education",
+        "experience": "Experience",
+        "volunteering": "Volunteering",
+        "projects": "Projects",
+        "references": "References",
+        "interests": "Interests",
+        "languages": "Languages",
+        "skills": "Skills",
+        "social": "Social",
+        "visible": "Visible",
+        "hidden": "Hidden"
+      },
+      "template": {
+        "templateTitle": "Template"
+      },
+      "theme": {
+        "themeTitle": "Theme",
+        "background": "Background",
+        "text": "Text",
+        "primary": "Primary"
+      },
+      "typography": {
+        "typographyTitle": "Typography",
+        "fontSize": "Font Size",
+        "lineHeight": "Line Height",
+        "options": "Options",
+        "underlineLinks": "Underline Links"
+      },
+      "register": {
+        "modelName": "Model Name",
+        "modelCreated": "Model created successfully !",
+        "createModel": "Create Model"
+      }
+    }
+  },
+  "Resumes": {
+    "chargement": {
+      "title": "Loading",
+      "waitText": "Please wait while your data is being uploaded. You will be notified once it is ready.",
+      "close": "Close",
+      "breadcrumbs": {
+        "personnalisation": "Personalization",
+        "chargement": "Loading Data"
+      },
+      "headers": {
+        "ID": "#ID",
+        "name": "Name",
+        "email": "Email",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at",
+        "actions": "Actions"
+      },
+      "loadCandidateData": "Load Candidate data",
+      "importSuccess": "Candidates files  imported!",
+      "importError": "Candidates import failed !",
+      "noDataFound": "No Data found",
+      "searchText": "Search by candidate",
+      "chooseFileImport": "Upload and attach files",
+      "selectFile": "Select a file",
+      "importFile": "Import file",
+      "importMaxFiles": "You have exceeded the maximum allowed limit of {limit} files.",
+      "cancel": "Cancel",
+      "import": "Import"
+    },
+    "editor": {
+      "selectModel": "Select model",
+      "syncData": "Sync Data",
+      "selectCandidates": "Select Candidates",
+      "selectTemplate": "Select Template before reviewing",
+      "noDataMessage": "No models found",
+      "noData": "No data",
+      "noCandidates": "No Candidates selected",
+      "fileNotFound": "File Not Found",
+      "toasts": {
+        "candidateRemoved": "Candidate removed",
+        "candidateLoaded": "Candidate data synchronized successfully.",
+        "NoCandidateValidated": "No Candidate was validated",
+        "loadingData": "Candidate Loaded",
+        "loadSucess": "Candidate Loaded",
+        "loadError": "An error has occurred"
+      }
+    },
+    "actions": {
+      "syncData": "Sync data",
+      "close": "Close",
+      "visualize": "Visualize",
+      "create": "Create",
+      "edit": "Edit",
+      "copy": "Copy",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "addItem": "Add item",
+      "newItem": "New item"
+    },
+    "basics": {
+      "basicsTitle": "Basics",
+      "picture": "Picture",
+      "name": "Name",
+      "phone": "Phone",
+      "city": "City",
+      "age": "Age",
+      "email": "Email",
+      "headline": "Headline",
+      "summary": "Summary"
+    },
+    "toasts": {
+      "itemDeleted": "Item deleted",
+      "itemCreated": "Item created"
+    },
+    "experiences": {
+      "headers": {
+        "work": "Work",
+        "jobTitle": "Job title",
+        "companyName": "Company name",
+        "city": "City",
+        "date": {
+          "start": "Start date",
+          "end": "end date"
+        }
+      },
+      "placeholders": {
+        "jobTitle": "Job title",
+        "companyName": "Company name",
+        "city": "City",
+        "startDate": "March 2024 present",
+        "endDate": "End date",
+        "responsibilities": "Responsibilities"
+      },
+      "toasts": {
+        "jobTitleEmpty": "Job title should not be empty",
+        "companyNameEmpty": "Company name should not be empty"
+      }
+    },
+    "educations": {
+      "headers": {
+        "education": "Education",
+        "degreeName": "Degree name",
+        "institutionName": "Institution name",
+        "startYear": "Start year",
+        "endYear": "End year"
+      },
+      "placeholders": {
+        "degreeName": "ex: Bachelor of Science in Computer Science",
+        "institutionName": "institution name",
+        "startYear": "March 2024 present",
+        "endYear": "End date"
+      },
+      "toasts": {
+        "institutionEmpty": "Insitution should not be empty",
+        "degreeEmpty": "Degree name should not be empty"
+      }
+    },
+    "projects": {
+      "headers": {
+        "project": "Projects",
+        "projectName": "Project name",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "description": "Description"
+      },
+      "placeholders": {
+        "projectName": "ex: Ecomerce store",
+        "startDate": "March 2024 present",
+        "endDate": "End date",
+        "description": "Description"
+      },
+      "toasts": {
+        "nameEmpty": "Name should not be empty"
+      }
+    },
+    "certifications": {
+      "headers": {
+        "certifications": "Certifications",
+        "certificationName": "Certification name",
+        "institutionName": "Institution name",
+        "date": "Date",
+        "link": "Link"
+      },
+      "placeholders": {
+        "certificationName": "ex: IBM data science certificate",
+        "institutionName": "institution name",
+        "date": "March 2024 present",
+        "link": "link"
+      },
+      "toasts": {
+        "nameEmpty": "Name should not be empty",
+        "institutionEmpty": "Institution should not be empty"
+      }
+    },
+    "references": {
+      "headers": {
+        "reference": "References",
+        "name": "Name",
+        "position": "Position",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "placeholders": {
+        "name": "Name",
+        "position": "Position",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "toasts": {
+        "nameEmpty": "Name should not be empty",
+        "positionEmpty": "Position should not be empty"
+      }
+    },
+    "volunteering": {
+      "headers": {
+        "volunteering": "Volunteering",
+        "organizationName": "Organization name",
+        "position": "Position",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "description": "Description"
+      },
+      "placeholders": {
+        "organizationName": "Organization name",
+        "position": "Position",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "description": "Description"
+      },
+      "toasts": {
+        "positionEmpty": "Position should not be empty",
+        "organizationEmpty": "Organization name should not be empty"
+      }
+    },
+    "interests": {
+      "headers": {
+        "interests": "Interests",
+        "interestName": "Interest name"
+      },
+      "placeholders": {
+        "interestName": "ex: Basketball, Hiking, cooking, reading etc.."
+      },
+      "toasts": {
+        "interestEmpty": "Interest should not be empty"
+      }
+    },
+    "languages": {
+      "headers": {
+        "languages": "Languages",
+        "languageName": "Language",
+        "level": "Level"
+      },
+      "placeholders": {
+        "languageName": "ex: English"
+      },
+      "toasts": {
+        "languageEmpty": "Language should not be empty"
+      }
+    },
+    "skills": {
+      "headers": {
+        "skills": "Skills",
+        "skillName": "Skill",
+        "level": "Level"
+      },
+      "placeholders": {
+        "skillName": "ex: Python"
+      },
+      "toasts": {
+        "skillEmpty": "Skill should not be empty"
+      }
+    },
+    "socials": {
+      "headers": {
+        "socials": "Soft skills",
+        "socialName": "skill",
+        "link": "Link"
+      },
+      "placeholders": {
+        "socialName": "ex: LinkedIn",
+        "link": "Link"
+      },
+      "toasts": {
+        "socialEmpty": "Social should not be empty"
+      }
+    }
+  },
+  "plans": {
+    "title": "Choose the plan that fits for your team",
+    "price": "Price",
+    "choosePlan": "Contact us",
+    "standardName": "Standard",
+    "premiumName": "Premium",
+    "goldName": "Gold",
+    "frequency": "Month",
+    "standard": {
+      "advantage1": "2 CVs",
+      "advantage2": "All CV templates",
+      "advantage3": "Basic CV sections",
+      "advantage4": "CvBusiness logo",
+      "advantage5": "All sections",
+      "advantage6": "Access to all design tools",
+      "advantage7": "Button labeled: Try for 5 days"
+    },
+    "premium": {
+      "advantage1": "All CV templates",
+      "advantage2": "Real-time content suggestions",
+      "advantage3": "Applicant Tracking System",
+      "advantage4": "Professional CV sections",
+      "advantage5": "Company logo",
+      "advantage6": "Unlimited number of sections",
+      "advantage7": "Advanced design options",
+      "advantage8": "Button labeled: Contact us"
+    },
+    "gold": {
+      "advantage1": "All CV templates",
+      "advantage2": "Import your own templates",
+      "advantage3": "Real-time content suggestions",
+      "advantage4": "Applicant Tracking System",
+      "advantage5": "Professional CV sections",
+      "advantage6": "Company logo",
+      "advantage7": "Unlimited number of sections",
+      "advantage8": "Advanced design options",
+      "advantage9": "Multi-language CV translations"
+    }
+  },
+  "Faqs": {
+    "title": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "Here, you can find answers to the most frequently asked questions.",
+    "question1": {
+      "title": "Question 1",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
+    },
+    "question2": {
+      "title": "Question 2",
+      "text": "Answer 2"
+    },
+    "question3": {
+      "title": "Question 3",
+      "text": "Answer 3"
+    },
+    "question4": {
+      "title": "Question 4",
+      "text": "Answer 4"
+    }
+  },
+  "Invoices": {
+    "invoice": "Invoice",
+    "billing": "Billing",
+    "searchBySubscription": "Search by subscription",
+    "noRecordsFound": "No records found",
+    "visualize": "Visualize",
+    "headers": {
+      "ID": "#ID",
+      "subscription": "Subscription",
+      "amount": "Amount",
+      "createdAt": "Created at",
+      "updatedAt": "Updated at",
+      "actions": "Actions"
+    },
+    "informations": {
+      "download": "Download",
+      "documentType": "Document Type",
+      "invoiceNumber": "Invoice Number",
+      "supplyCode": "Supply Code",
+      "billDate": "Bill Date",
+      "dueDate": "Due Date",
+      "paymentType": {
+        "title": "Payment Type",
+        "creditCard": "Credit Card",
+        "paypal": "Paypal",
+        "check": "Check",
+        "cash": "Cash"
+      },
+      "details": {
+        "name": "Name",
+        "address": "Address",
+        "city": "City",
+        "state": "State",
+        "contactName": "Contact Name",
+        "phone": "Phone",
+        "email": "Email",
+        "customerName": "Customer Name"
+      },
+      "myDetails": "My Details",
+      "customerDetails": "Customer Details",
+      "itemDetails": {
+        "title": "Item Details",
+        "item": "Item",
+        "itemDescription": "Item Description",
+        "characters": "Characters",
+        "price": "Price",
+        "discount": "Discount",
+        "tax": "Tax",
+        "taxableAmt": "Taxable Amount",
+        "taxAmt": "Tax Amount",
+        "totalAmt": "Total Amount",
+        "subTotal": "SubTotal",
+        "totalDiscount": "Total Discount",
+        "totalTax": "Total Tax",
+        "totalAmount": "Total Amount"
+      },
+      "summary": {
+        "title": "Summary",
+        "subTotal": "SubTotal",
+        "totalDiscount": "Total Discount",
+        "totalTax": "Total Tax",
+        "totalAmount": "Total Amount"
+      }
+    }
+  },
+  "Dashboard": {
+    "Analytical": "Analytical",
+    "latestStatistics": "Latest Statistics"
+  },
+  "notifications" : {
+    "title" : "Notifications",
+    "noNotifications" : "No notifications found.",
+    "new" : "new",
+    "clear" :"Clear Notifications",
+    "toasts" :{
+      "clearSuccess" : "Notifications Cleared !",
+      "uploadCandidateSuccess": "The CVs of {candidate} has been successfully uploaded."
+    }
+  },
+  "auth" : {
+    "welcome" : "You're logged in successfully, welcome back !",
+    "leave": "You’ve logged out successfully. See you soon!",
+    "authText" : "Sign in to your account",
+    "signIn": "Sign in",
+    "showPassword": "Hold Ctrl to display your password temporarily.",
+    "logOut": "Log out"
+  }
+}

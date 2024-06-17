@@ -1,0 +1,571 @@
+{
+  "Sample Page": "Page d'exemple",
+  "Menu Level": "Niveau de menu",
+  "Level 1": "Niveau 1",
+  "Level 2": "Niveau 2",
+  "Level 3": "Niveau 3",
+  "Disabled": "Désactivé",
+  "Sub Caption": "Sous-titre",
+  "Outlined": "Délimité",
+  "External Link": "Lien externe",
+  "Chip": "Puce",
+  "dashboard": "Tableau de bord",
+  "models": "Modèles",
+  "creation": "Création",
+  "personalization": "Personnalisation",
+  "consultation": "Consultation",
+  "chargement": "Chargement des données",
+  "editor": "Éditeur",
+  "candidates": "Candidats",
+  "billing": "Facturation",
+  "pricing": "Tarification",
+  "invoice": "Facture",
+  "settings": "Paramètres",
+  "testing": "Test",
+  "Auth": {
+    "welcome": "Bienvenue!",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié?",
+    "login": "Connexion"
+  },
+  "Error": {
+    "oops": "Oups!!!",
+    "notFound": "La page que vous recherchez n'a pas pu être trouvée.",
+    "goBackHome": "Retour à l'accueil"
+  },
+  "Settings": {
+    "title": "Paramètres",
+    "account": {
+      "title": "Compte",
+      "description": "Ici, vous pouvez mettre à jour les informations de votre compte telles que votre photo de profil, votre nom et votre nom d'utilisateur.",
+      "pictureUrl": "URL de l'image",
+      "name": "Nom",
+      "username": "Nom d'utilisateur",
+      "email": "Email",
+      "verified": "Vérifié",
+      "notVerified": "Non vérifié",
+      "submitChanges": "Soumettre les modifications"
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Dans cette section, vous pouvez changer votre mot de passe et activer/désactiver l'authentification à deux facteurs.",
+      "password": "Mot de passe",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "changePassword": "Changer le mot de passe",
+      "twoFA": "Authentification à deux facteurs",
+      "twoFADescriptionDisabled": "L'authentification à deux facteurs est actuellement désactivée. Vous pouvez l'activer en ajoutant une application d'authentification à votre compte.",
+      "enable2FA": "Activer 2FA",
+      "twoFADescriptionEnabled": "L'authentification à deux facteurs est actuellement activée. Vous pouvez la désactiver en cliquant sur le bouton ci-dessous.",
+      "disable2FA": "Désactiver 2FA"
+    },
+    "profile": {
+      "title": "Profil",
+      "description": "Ici, vous pouvez mettre à jour votre profil pour personnaliser et personnaliser votre expérience.",
+      "theme": "Thème",
+      "language": "Langue"
+    }
+  },
+  "Candidates": {
+    "title": "Candidats",
+    "searchByCandidate": "Rechercher par candidat",
+    "noDataFound": "Aucune donnée trouvée",
+    "download": "Télécharger",
+    "downloaded": "Cv Téléchargé",
+    "headers": {
+      "ID": "#ID",
+      "name": "Nom",
+      "email": "Email",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "oldResume": "Ancien CV",
+      "newResume": "Nouveau CV",
+      "actions": "Actions"
+    }
+  },
+  "Models": {
+    "consultation": {
+      "toasts": {
+        "modelUpdated": "Modèle mis à jour !",
+        "modelDeleted": "Modèle supprimé !"
+      },
+      "title": "Consultation",
+      "breadcrumbs": {
+        "models": "Modèles",
+        "consultation": "Consultation"
+      },
+      "searchPlaceholder": "Rechercher par modèle",
+      "newModel": "Nouveau modèle",
+      "importModel": "Importer modèle",
+      "noDataFound": "Aucune donnée trouvée",
+      "visualize": "Visualiser",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "headers": {
+        "ID": "#ID",
+        "name": "Nom",
+        "uses": "Utilisations",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le",
+        "actions": "Actions"
+      }
+    },
+    "creation": {
+      "logo": {
+        "logoTitle": "Logo",
+        "picture": "Image",
+        "size": "Taille",
+        "aspectRatio": "Ratio d'aspect",
+        "borderRadius": "Rayon de la bordure",
+        "effects": "Effets",
+        "border": "Bordure",
+        "hidden": "Caché",
+        "grayscale": "Niveaux de gris"
+      },
+      "page": {
+        "pageTitle": "Page",
+        "format": "Format",
+        "options": "Options",
+        "showHeadline": "Afficher le titre",
+        "showSummary": "Afficher le résumé"
+      },
+      "sections": {
+        "sectionsTitle": "Sections",
+        "main": "Principal",
+        "sidebar": "Barre latérale",
+        "certifications": "Certifications",
+        "education": "Éducation",
+        "experience": "Expérience",
+        "volunteering": "Bénévolat",
+        "projects": "Projets",
+        "references": "Références",
+        "interests": "Intérêts",
+        "languages": "Langues",
+        "skills": "Compétences",
+        "social": "Social",
+        "visible": "Visible",
+        "hidden": "Caché"
+      },
+      "template": {
+        "templateTitle": "Modèle"
+      },
+      "theme": {
+        "themeTitle": "Thème",
+        "background": "Arrière-plan",
+        "text": "Texte",
+        "primary": "Principal"
+      },
+      "typography": {
+        "typographyTitle": "Typographie",
+        "fontSize": "Taille de la police",
+        "lineHeight": "Hauteur de ligne",
+        "options": "Options",
+        "underlineLinks": "Souligner les liens"
+      },
+      "register": {
+        "modelName": "Nom du modèle",
+        "modelCreated": "Modèle créé avec succès !",
+        "createModel": "Créer un modèle"
+      }
+    }
+  },
+  "Resumes": {
+    "chargement": {
+      "title": "Chargement",
+      "waitText": "Veuillez patienter pendant que vos données sont en cours de téléchargement. Vous serez averti(e) une fois que ce sera prêt.",
+      "close": "Fermer",
+      "breadcrumbs": {
+        "personnalisation": "Personnalisation",
+        "chargement": "Chargement des données"
+      },
+      "headers": {
+        "ID": "#ID",
+        "name": "Nom",
+        "email": "Email",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le",
+        "actions": "Actions"
+      },
+      "loadCandidateData": "Charger les données du candidat",
+      "importSuccess": "fichiers Candidats importés!",
+      "importError": "L'importation des candidats a échoué!",
+      "noDataFound": "Aucune donnée trouvée",
+      "searchText": "Rechercher par candidat",
+      "chooseFileImport": "Choisissez les fichiers à partir duquel vous souhaitez importer des données",
+      "selectFile": "Sélectionner un fichier",
+      "importFile": "Importer le fichier",
+      "importMaxFiles": "Vous avez dépassé la limite maximale autorisée de {limit} fichiers.",
+      "cancel": "Annuler",
+      "import": "Importer"
+    },
+    "editor": {
+      "selectModel": "Sélectionner un modèle",
+      "syncData": "Synchroniser les données",
+      "selectCandidates": "Sélectionner des candidats",
+      "selectTemplate": "Sélectionner un modèle avant de revoir",
+      "noDataMessage": "Aucun modèle trouvé",
+      "noData": "Pas de données",
+      "noCandidates": "Aucun candidat sélectionné",
+      "fileNotFound": "Fichier introuvable",
+      "toasts": {
+        "candidateRemoved": "Candidat retiré",
+        "candidateLoaded": "Candidat chargé",
+        "NoCandidateValidated": "Aucun candidat n'a été validé",
+        "loadingData": "Chargement des données",
+        "loadSucess": "Données chargées",
+        "loadError": "Une erreur est survenue"
+      }
+    },
+    "actions": {
+      "syncData": "Synchroniser les données",
+      "close": "Fermer",
+      "visualize": "Visualiser",
+      "create": "Créer",
+      "edit": "Modifier",
+      "copy": "Copier",
+      "delete": "Supprimer",
+      "duplicate": "Dupliquer",
+      "addItem": "Ajouter un élément",
+      "newItem": "Nouvel élément"
+    },
+    "basics": {
+      "basicsTitle": "Informations de base",
+      "picture": "Image",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "city": "Ville",
+      "age": "Âge",
+      "email": "Email",
+      "headline": "Titre",
+      "summary": "Résumé"
+    },
+    "toasts": {
+      "itemDeleted": "Élément supprimé",
+      "itemCreated": "Élément créé"
+    },
+    "experiences": {
+      "headers": {
+        "work": "Travail",
+        "jobTitle": "Intitulé du poste",
+        "companyName": "Nom de l'entreprise",
+        "city": "Ville",
+        "date": {
+          "start": "Date de début",
+          "end": "Date de fin"
+        }
+      },
+      "placeholders": {
+        "jobTitle": "Intitulé du poste",
+        "companyName": "Nom de l'entreprise",
+        "city": "Ville",
+        "startDate": "Mars 2024 présent",
+        "endDate": "Date de fin",
+        "responsibilities": "Responsabilités"
+      },
+      "toasts": {
+        "jobTitleEmpty": "L'intitulé du poste ne doit pas être vide",
+        "companyNameEmpty": "Le nom de l'entreprise ne doit pas être vide"
+      }
+    },
+    "educations": {
+      "headers": {
+        "education": "Éducation",
+        "degreeName": "Nom du diplôme",
+        "institutionName": "Nom de l'institution",
+        "startYear": "Année de début",
+        "endYear": "Année de fin"
+      },
+      "placeholders": {
+        "degreeName": "ex : Licence en informatique",
+        "institutionName": "Nom de l'institution",
+        "startYear": "Mars 2024 présent",
+        "endYear": "Date de fin"
+      },
+      "toasts": {
+        "institutionEmpty": "L'institution ne doit pas être vide",
+        "degreeEmpty": "Le nom du diplôme ne doit pas être vide"
+      }
+    },
+    "projects": {
+      "headers": {
+        "project": "Projets",
+        "projectName": "Nom du projet",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description"
+      },
+      "placeholders": {
+        "projectName": "ex : Boutique en ligne",
+        "startDate": "Mars 2024 présent",
+        "endDate": "Date de fin",
+        "description": "Description"
+      },
+      "toasts": {
+        "nameEmpty": "Le nom ne doit pas être vide"
+      }
+    },
+    "certifications": {
+      "headers": {
+        "certifications": "Certifications",
+        "certificationName": "Nom de la certification",
+        "institutionName": "Nom de l'institution",
+        "date": "Date",
+        "link": "Lien"
+      },
+      "placeholders": {
+        "certificationName": "ex : Certificat en science des données d'IBM",
+        "institutionName": "Nom de l'institution",
+        "date": "Mars 2024 présent",
+        "link": "Lien"
+      },
+      "toasts": {
+        "nameEmpty": "Le nom ne doit pas être vide",
+        "institutionEmpty": "L'institution ne doit pas être vide"
+      }
+    },
+    "references": {
+      "headers": {
+        "reference": "Références",
+        "name": "Nom",
+        "position": "Poste",
+        "company": "Entreprise",
+        "email": "Email",
+        "phone": "Téléphone"
+      },
+      "placeholders": {
+        "name": "Nom",
+        "position": "Poste",
+        "company": "Entreprise",
+        "email": "Email",
+        "phone": "Téléphone"
+      },
+      "toasts": {
+        "nameEmpty": "Le nom ne doit pas être vide",
+        "positionEmpty": "Le poste ne doit pas être vide"
+      }
+    },
+    "volunteering": {
+      "headers": {
+        "volunteering": "Bénévolat",
+        "organizationName": "Nom de l'organisation",
+        "position": "Poste",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description"
+      },
+      "placeholders": {
+        "organizationName": "Nom de l'organisation",
+        "position": "Poste",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "description": "Description"
+      },
+      "toasts": {
+        "positionEmpty": "Le poste ne doit pas être vide",
+        "organizationEmpty": "Le nom de l'organisation ne doit pas être vide"
+      }
+    },
+    "interests": {
+      "headers": {
+        "interests": "Intérêts",
+        "interestName": "Nom de l'intérêt"
+      },
+      "placeholders": {
+        "interestName": "ex : Basketball, randonnée, cuisine, lecture, etc.."
+      },
+      "toasts": {
+        "interestEmpty": "L'intérêt ne doit pas être vide"
+      }
+    },
+    "languages": {
+      "headers": {
+        "languages": "Langues",
+        "languageName": "Langue",
+        "level": "Niveau"
+      },
+      "placeholders": {
+        "languageName": "ex : Anglais"
+      },
+      "toasts": {
+        "languageEmpty": "La langue ne doit pas être vide"
+      }
+    },
+    "skills": {
+      "headers": {
+        "skills": "Compétences",
+        "skillName": "Compétence",
+        "level": "Niveau"
+      },
+      "placeholders": {
+        "skillName": "ex : Python"
+      },
+      "toasts": {
+        "skillEmpty": "La compétence ne doit pas être vide"
+      }
+    },
+    "socials": {
+      "headers": {
+        "socials": "Compétences personnelles",
+        "socialName": "Réseau social",
+        "link": "Lien"
+      },
+      "placeholders": {
+        "socialName": "ex : LinkedIn",
+        "link": "Lien"
+      },
+      "toasts": {
+        "socialEmpty": "Le réseau social ne doit pas être vide"
+      }
+    }
+  },
+  "plans": {
+    "title": "Choisissez le plan qui convient à votre équipe",
+    "price": "Prix",
+    "choosePlan": "Contactez-nous",
+    "standardName": "Standard",
+    "premiumName": "Premium",
+    "goldName": "Gold",
+    "frequency": "Mois",
+    "standard": {
+      "advantage1": " 2 Cvs",
+      "advantage2": "Tous les modèles de CV",
+      "advantage3": "Sections de base du CV",
+      "advantage4": "Logo CvBusiness",
+      "advantage5": "Tous les sections.",
+      "advantage6": "Accès à tous les outils de design",
+      "advantage7": "Boutton contient le libellé : essayer pendant 5 jours"
+    },
+    "premium": {
+      "advantage1": "Tous les modèles de CV",
+      "advantage2": "Suggestions de contenu en temps réel",
+      "advantage3": "Suivi des candidats (Applicant Tracking System)",
+      "advantage4": "Sections de CV pro",
+      "advantage5": "Logo Entreprise",
+      "advantage6": "Nombre de sections illimité",
+      "advantage7": "Options de design avancés",
+      "advantage8": "Boutton contient le libellé : Contactez-nous"
+    },
+    "gold": {
+      "advantage1": "Tous les modèles de CV",
+      "advantage2": "Importer vos propre modèles",
+      "advantage3": "Suggestions de contenu en temps réel",
+      "advantage4": "Suivi des candidats (Applicant Tracking System)",
+      "advantage5": "Sections de CV pro",
+      "advantage6": "Logo Entreprise",
+      "advantage7": "Nombre de sections illimité",
+      "advantage8": "Options de design avancés",
+      "advantage9": "Traduction multi-langues de CVs"
+    }
+  },
+  "Faqs": {
+    "title": "FAQs",
+    "heading": "Questions fréquemment posées",
+    "description": "Ici, vous pouvez trouver des réponses aux questions les plus fréquemment posées.",
+    "question1": {
+      "title": "Question 1",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima"
+    },
+    "question2": {
+      "title": "Question 2",
+      "text": "Réponse 2"
+    },
+    "question3": {
+      "title": "Question 3",
+      "text": "Réponse 3"
+    },
+    "question4": {
+      "title": "Question 4",
+      "text": "Réponse 4"
+    }
+  },
+  "Invoices": {
+    "invoice": "Facture",
+    "billing": "Facturation",
+    "searchBySubscription": "Rechercher par abonnement",
+    "noRecordsFound": "Aucun enregistrement trouvé",
+    "visualize": "Visualiser",
+    "headers": {
+      "ID": "#ID",
+      "subscription": "Abonnement",
+      "amount": "Montant",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "actions": "Actions"
+    },
+    "informations": {
+      "download": "Télécharger",
+      "documentType": "Type de document",
+      "invoiceNumber": "Numéro de facture",
+      "supplyCode": "Code d'approvisionnement",
+      "billDate": "Date de facturation",
+      "dueDate": "Date d'échéance",
+      "paymentType": {
+        "title": "Type de paiement",
+        "creditCard": "Carte de crédit",
+        "paypal": "Paypal",
+        "check": "Chèque",
+        "cash": "Espèces"
+      },
+      "details": {
+        "name": "Nom",
+        "address": "Adresse",
+        "city": "Ville",
+        "state": "État",
+        "contactName": "Nom du contact",
+        "phone": "Téléphone",
+        "email": "Email",
+        "customerName": "Nom du client"
+      },
+      "myDetails": "Mes informations",
+      "customerDetails": "Informations du client",
+      "itemDetails": {
+        "title": "Détails de l'article",
+        "item": "Article",
+        "itemDescription": "Description de l'article",
+        "characters": "Caractères",
+        "price": "Prix",
+        "discount": "Réduction",
+        "tax": "Taxe",
+        "taxableAmt": "Montant imposable",
+        "taxAmt": "Montant de la taxe",
+        "totalAmt": "Montant total",
+        "subTotal": "Sous-total",
+        "totalDiscount": "Réduction totale",
+        "totalTax": "Taxe totale",
+        "totalAmount": "Montant total"
+      },
+      "summary": {
+        "title": "Résumé",
+        "subTotal": "Sous-total",
+        "totalDiscount": "Réduction totale",
+        "totalTax": "Taxe totale",
+        "totalAmount": "Montant total"
+      }
+    }
+  },
+  "Dashboard": {
+    "Analytical": "Analytique",
+    "latestStatistics": "Dernières statistiques"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "Aucune notification trouvée.",
+    "new": "nouveau",
+    "clear": "Effacer les notifications",
+    "toasts": {
+      "clearSuccess": "Notifications effacées !",
+      "uploadCandidateSuccess": "Le CVs de {candidate} a bien été téléchargé(e)."
+    }
+  },
+  "auth": {
+    "welcome": "Vous êtes connecté avec succès, bon retour !",
+    "leave": "Vous vous êtes déconnecté avec succès. À bientôt !",
+    "authText": "Connectez-vous à votre compte",
+    "signIn": "Se connecter",
+    "showPassword": "Maintenez Ctrl pour afficher votre mot de passe temporairement.",
+    "logOut": "Se déconnecter"
+  }
+}
